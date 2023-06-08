@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 
 import Inicio from './Inicio'
 import { Projetos } from './projetos'
+import { Portifolio } from './Portifolio'
 
 
 const RotasExistente = props => (
@@ -10,6 +11,7 @@ const RotasExistente = props => (
         <Routes>
             <Route  exact path="/" element={<Inicio/>}></Route>
             <Route  exact path="/projetos" element={<Projetos/>}></Route>
+            <Route  exact path="/portifolio" element={<Portifolio/>}></Route>
         </Routes>
     </main>
 )

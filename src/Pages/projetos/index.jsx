@@ -30,69 +30,63 @@ export const Projetos = () => {
                 <div className="main-projetos-cards" ref={carrousel}>
 
                     <div className="main-projetos-cards-container">
-
-                        <div className="main-projetos-cards-card-container-card"></div>
-
+                        <div className="main-projetos-cards-card-container-card">
+                            <div className="main-projetos-cards-card-container-card-img"></div>
+                            <h2 className="main-projetos-cards-card-container-card-titulo">Titulo</h2>
+                            <p className='main-projetos-cards-card-container-card-paragrafo'>Paragrafo</p>
+                            <div className="main-projetos-cards-card-container-card-traco1"></div>
+                            <div className="main-projetos-cards-card-container-card-traco2"></div>
+                            <div className="main-projetos-cards-card-container-card-traco3"></div>
+                            <div className="main-projetos-cards-card-container-card-triangulo"></div>
+                        </div>
                     </div>
 
                     <div className="main-projetos-cards-container">
-
-                        <div className="main-projetos-cards-card-container-card"></div>
-
+                        <div className="main-projetos-cards-card-container-card">
+                            <div className="main-projetos-cards-card-container-card-img"></div>
+                            <h2 className="main-projetos-cards-card-container-card-titulo">Titulo</h2>
+                            <p className='main-projetos-cards-card-container-card-paragrafo'>Paragrafo</p>
+                            <div className="main-projetos-cards-card-container-card-traco1"></div>
+                            <div className="main-projetos-cards-card-container-card-traco2"></div>
+                            <div className="main-projetos-cards-card-container-card-traco3"></div>
+                            <div className="main-projetos-cards-card-container-card-triangulo"></div>
+                        </div>
                     </div>
 
                     <div className="main-projetos-cards-container">
-
-                        <div className="main-projetos-cards-card-container-card"></div>
-
+                        <div className="main-projetos-cards-card-container-card">
+                            <div className="main-projetos-cards-card-container-card-img"></div>
+                            <h2 className="main-projetos-cards-card-container-card-titulo">Titulo</h2>
+                            <p className='main-projetos-cards-card-container-card-paragrafo'>Paragrafo</p>
+                            <div className="main-projetos-cards-card-container-card-traco1"></div>
+                            <div className="main-projetos-cards-card-container-card-traco2"></div>
+                            <div className="main-projetos-cards-card-container-card-traco3"></div>
+                            <div className="main-projetos-cards-card-container-card-triangulo"></div>
+                        </div>
                     </div>
 
                     <div className="main-projetos-cards-container">
-
-                        <div className="main-projetos-cards-card-container-card"></div>
-
+                        <div className="main-projetos-cards-card-container-card">
+                            <div className="main-projetos-cards-card-container-card-img"></div>
+                            <h2 className="main-projetos-cards-card-container-card-titulo">Titulo</h2>
+                            <p className='main-projetos-cards-card-container-card-paragrafo'>Paragrafo</p>
+                            <div className="main-projetos-cards-card-container-card-traco1"></div>
+                            <div className="main-projetos-cards-card-container-card-traco2"></div>
+                            <div className="main-projetos-cards-card-container-card-traco3"></div>
+                            <div className="main-projetos-cards-card-container-card-triangulo"></div>
+                        </div>
                     </div>
 
                     <div className="main-projetos-cards-container">
-
-                        <div className="main-projetos-cards-card-container-card"></div>
-
-                    </div>
-
-                    <div className="main-projetos-cards-container">
-
-                        <div className="main-projetos-cards-card-container-card"></div>
-
-                    </div>
-
-                    <div className="main-projetos-cards-container">
-
-                        <div className="main-projetos-cards-card-container-card"></div>
-
-                    </div>
-
-                    <div className="main-projetos-cards-container">
-
-                        <div className="main-projetos-cards-card-container-card"></div>
-
-                    </div>
-
-                    <div className="main-projetos-cards-container">
-
-                        <div className="main-projetos-cards-card-container-card"></div>
-
-                    </div>
-
-                    <div className="main-projetos-cards-container">
-
-                        <div className="main-projetos-cards-card-container-card"></div>
-
-                    </div>
-
-                    <div className="main-projetos-cards-container">
-
-                        <div className="main-projetos-cards-card-container-card"></div>
-
+                        <div className="main-projetos-cards-card-container-card">
+                            <div className="main-projetos-cards-card-container-card-img"></div>
+                            <h2 className="main-projetos-cards-card-container-card-titulo">Titulo</h2>
+                            <p className='main-projetos-cards-card-container-card-paragrafo'>Paragrafo</p>
+                            <div className="main-projetos-cards-card-container-card-traco1"></div>
+                            <div className="main-projetos-cards-card-container-card-traco2"></div>
+                            <div className="main-projetos-cards-card-container-card-traco3"></div>
+                            <div className="main-projetos-cards-card-container-card-triangulo"></div>
+                        </div>
                     </div>
 
                 </div>
