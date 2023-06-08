@@ -6,7 +6,6 @@ export const Portifolio = () => {
             <Header/>
             <h1>Portifolio</h1>
             <h2>Em andamento</h2>
-            <h3>Concertando falhas</h3>
         </>
     )
 }
