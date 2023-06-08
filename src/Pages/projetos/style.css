@@ -1,0 +1,69 @@
+.main-projetos{
+    width: 100%;
+    height: 90vh;
+    background-color: #F58010;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-projetos .btn{
+    width: 40px;
+    height: 70px;
+    background-color: #d9d9d981;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.main-projetos .left{
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    z-index: 1;
+}
+
+.main-projetos .right{
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    z-index: 1;
+}
+
+.main-projetos-cards{
+    width: 95%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+}
+
+.main-projetos-cards-container{
+    height: 100%;
+    min-width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main-projetos-cards::-webkit-scrollbar {
+    display: none;            /* width of the entire scrollbar */
+    
+}
+
+.main-projetos-cards-card-container-card{
+    width: 90%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}

@@ -1,10 +1,20 @@
-import { Header } from "../../Components/Header"
+import Header from '../../Components/Header'
 import './style.css'
 
-export const Inicio = () => {
+const Inicio = () => {
     return(
+
         <>
-        <Header/>
+            <Header/>
+            <main className='main-inicio'>
+                <div className="main-inicio-container">
+                    <div className="main-inicio-container-logo"></div>
+                </div>
+                
+            </main>
+            
         </>
     )
 }
+
+export default Inicio

@@ -1,9 +1,13 @@
-import './App.css';
-import { Inicio } from './Pages/Inicio';
+
+import RotasExistente from './Pages/Routers';
+import { BrowserRouter as Rotas } from 'react-router-dom';
+
 
 function App() {
   return (
-    <Inicio/>
+    <Rotas>
+      <RotasExistente></RotasExistente>
+    </Rotas>
   );
 }
 
