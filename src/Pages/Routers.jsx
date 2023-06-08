@@ -1,7 +1,7 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 
-import Inicio from './inicio'
+import Inicio from './Inicio'
 import { Projetos } from './projetos'
 
 
