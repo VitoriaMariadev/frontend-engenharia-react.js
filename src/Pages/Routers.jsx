@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 
 import Inicio from './Inicio'
 import { Projetos } from './projetos'
-import { Portifolio } from './Portifolio'
+import { Portifolio } from './portifolio'
 
 
 const RotasExistente = props => (
