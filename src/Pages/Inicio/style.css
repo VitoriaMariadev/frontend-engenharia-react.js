@@ -1,6 +1,5 @@
-
-.container-maior{
-    overflow: auto;
+body{
+    background-color: #929292;
 }
 
 .main-inicio{
@@ -12,35 +11,28 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
+    opacity: 0.9;
+    position: fixed;
+    bottom: 0;
 }
 
-.container-maior::-webkit-scrollbar {
-    width: 10px;               /* width of the entire scrollbar */
-    
-}
-
-.container-maior::-webkit-scrollbar-thumb {
-    background-color: #EC4434;    /* color of the scroll thumb */
-    border-radius: 20px;       /* roundness of the scroll thumb */
-
-    
-}
 
 .main-inicio-container{
     width: 65%;
     height: 55%;
-    background-color: #000000b7;
+    background-color: #ffffffdc;
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .main-inicio-container-logo{
-    width: 80%;
-    height: 80%;
-    background-image: url('../../Images/logo-maior.png');
+    width: 75%;
+    height: 75%;
+    background-image: url('../../Images/logo_nova_muito_maior.png');
     background-repeat: no-repeat;
-    background-size: 90%;
+    background-size: 80%;
     background-position: center;
+
 }

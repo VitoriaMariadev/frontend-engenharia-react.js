@@ -20,7 +20,7 @@ export const Projetos = () => {
 
     return(
 
-        <>
+        <div>
             <Header/>
             <main className="main-projetos">
 
@@ -92,6 +92,6 @@ export const Projetos = () => {
                 </div>
 
             </main>
-        </>
+        </div>
     )
 }

@@ -29,22 +29,18 @@ export const Portifolio = () => {
                 <div className="main-portifolio-carrossel" ref={carrousel}>
 
                     <div className="main-portifolio-carrossel-container">
-                        <div className="main-portifolio-traco"></div>
                         <div className="main-portifolio-triangulo"></div>
                     </div>
 
                     <div className="main-portifolio-carrossel-container">
-                        <div className="main-portifolio-traco"></div>
                         <div className="main-portifolio-triangulo"></div>
                     </div>
 
                     <div className="main-portifolio-carrossel-container">
-                        <div className="main-portifolio-traco"></div>
                         <div className="main-portifolio-triangulo"></div>
                     </div>
 
                     <div className="main-portifolio-carrossel-container">
-                        <div className="main-portifolio-traco"></div>
                         <div className="main-portifolio-triangulo"></div>
                     </div>
 
