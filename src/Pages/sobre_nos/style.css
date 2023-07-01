@@ -1,0 +1,60 @@
+.main-sobre-nos{
+    background: url('../../Images/BIM-min.jpg') center right no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 1650px;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    position: relative;
+    flex-direction: column;
+    font-family: 'Hammersmith One';
+}
+
+.main-sobre-nos-descricao{
+    width: 90%;
+    height: 50%;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.main-sobre-nos-descricao-texto{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-sobre-nos-descricao-texto  > h1 {
+    width: 83%;
+    height: 20%;
+    color: #0062F4;
+}
+
+.main-sobre-nos-descricao-texto > p {
+    width: 80%;
+    height: 48%;
+    border-left: solid 3px #0062F4;
+    padding-left: 3%;
+}
+
+.main-sobre-nos-descricao-img{
+    width: 40%;
+    height: 100%;
+    background-image: url('../../Images/engranagem.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
