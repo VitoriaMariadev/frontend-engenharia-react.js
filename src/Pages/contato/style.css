@@ -1,0 +1,211 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
+.main-contato{
+    width: 100%;
+    height: 90vh;
+    background-image: url('../../Images/1454_Banner\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+    position: fixed;
+    bottom: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.main-contato-logo{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-contato-logo-img{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.main-contato-logo-img-logo{
+    width: 90%;
+    height: 50%;
+    background-image: url('../../Images/logo_nova_maior.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+}
+
+.main-contato-logo-redes{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-contato-campos{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.main-contato-campos-traco1{
+    width: 0.8%;
+    height: 23%;
+    background-color: #0062F4;
+    left: 5%;
+    top: 21%;
+    position: absolute;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.main-contato-campos-traco2{
+    width: 0.8%;
+    height: 28.5%;
+    background-color: #0062F4;
+    left: 5%;
+    top: 51%;
+    position: absolute;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.main-contato-campos > h1{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;  
+    font-size: 2.2rem; 
+}
+
+.main-contato-campos-nome{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-contato-campos-nome-input{
+    width: 80%;
+    height: 60%;
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    background-color: #EAE8E8;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.main-contato-campos-nome-input > input{
+    width: 90%;
+    height: 90%;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+}
+
+.main-contato-campos-nome-input > p{
+    width: 10%;
+    text-align: center;
+}
+
+.main-contato-campos-email{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-contato-campos-email-input{
+    width: 80%;
+    height: 60%;
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    background-color: #EAE8E8;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.main-contato-campos-email-input > input{
+    width: 90%;
+    height: 90%;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+}
+
+.main-contato-campos-email-input > p{
+    width: 10%;
+    text-align: center;
+}
+
+.main-contato-campos-descricao{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-contato-campos-descricao-input{
+    width: 80%;
+    height: 80%;
+    display: flex;  
+    align-items: center;
+    background-color: #EAE8E8;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    flex-direction: column;
+}
+
+.main-contato-campos-descricao-input > textarea{
+    width: 98%;
+    height: 80%;
+    min-width: 98%;
+    min-height: 70%;
+    max-width: 98%;
+    max-height: 70%;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    resize: none;
+}
+
+.main-contato-campos-descricao-input > p{
+    width: 98%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+
+}
+
+.main-contato-campos-btn{
+    width: 80%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.main-contato-campos-btn > button{
+    height: 60%;
+    width: 20%;
+    background: #ffffff3d;
+    border: 2px solid #0062F4;
+    color: #0062F4;
+    font-size: 1.5rem;
+    cursor: pointer;
+}

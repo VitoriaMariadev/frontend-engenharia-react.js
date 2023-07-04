@@ -13,17 +13,29 @@
     position: relative;
     flex-direction: column;
     font-family: 'Hammersmith One';
+    z-index: 1;
+}
+
+.main-sobre-nos-fundo{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    z-index: -1;
+    opacity: 60%;
 }
 
 .main-sobre-nos-descricao{
     width: 90%;
     height: 50%;
+    margin-top: 2%;
     background-color: #fff;
     border-radius: 20px;
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1000;
 
 
 }
@@ -57,4 +69,51 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80%;
+}
+
+.main-sobre-nos-parceiros{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-sobre-nos-parceiros > h2{
+    height: 14%;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.main-sobre-nos-parceiros-container{
+    width: 90%;
+    height: 70%;
+    background-color: #ffffffa1;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.main-sobre-nos-parceiros-container-img{
+    width: 15%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.caixa{
+    width: 40%;
+    height: 60%;
+}
+
+.main-sobre-nos-parceiros-container-img > img{
+    width: 80%;
+    height: 90%;
 }
