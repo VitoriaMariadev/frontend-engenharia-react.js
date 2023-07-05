@@ -1,5 +1,6 @@
 import Header from '../../Components/Header'
 import './style.css'
+import {FaInstagramSquare, FaWhatsappSquare, FaLinkedin, FaFacebookSquare} from 'react-icons/fa'
 
 export const Contato = () => {
     return(
@@ -14,8 +15,25 @@ export const Contato = () => {
                     <div className="main-contato-logo-redes">
                         <div className="main-contato-logo-redes-container">
                             <p>SIGA-NOS</p>
-                            <div className="main-contato-logo-redes-container-img">
-                                
+
+                            <div className="main-contato-logo-redes-container-logos">
+
+                                <div className="main-contato-logo-redes-container-img">
+                                    <a href=""><FaInstagramSquare/></a>
+                                </div>
+
+                                <div className="main-contato-logo-redes-container-img">
+                                    <a href=""><FaFacebookSquare/></a>
+                                </div>
+
+                                <div className="main-contato-logo-redes-container-img">
+                                    <a href=""><FaWhatsappSquare/></a>
+                                </div>
+
+                                <div className="main-contato-logo-redes-container-img">
+                                    <a href=""><FaLinkedin/></a>
+                                </div>
+
                             </div>
                         </div>
                     </div>

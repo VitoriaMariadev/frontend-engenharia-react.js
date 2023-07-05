@@ -42,12 +42,67 @@
 }
 
 .main-contato-logo-redes{
+    width: 80%;
+    height: 35%;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    padding-bottom: 5%;
+}
+
+.main-contato-logo-redes-container{
+    width: 60%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-left: 4px solid #0062F4;
+}
+
+.main-contato-logo-redes-container > p{
+    width: 95%;
+    color: #0062F4;
+    font-size: 1.8rem;
+}
+
+.main-contato-logo-redes-container-logos{
     width: 100%;
-    height: 40%;
+    height: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.main-contato-logo-redes-container-img{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-contato-logo-redes-container-img > a{
+    text-decoration: none;
+    width: 90%;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-contato-logo-redes-container-img > a > svg{
+    color: #000;
+    width: 100%;
+    height: 100%;
+}
+
+.main-contato-logo-redes-container-img > a > svg:hover{
+    color: #272727;
+    transition: 0.4s ease;
+
+}
+
 
 .main-contato-campos{
     height: 100%;
